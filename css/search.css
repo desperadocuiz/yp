@@ -1,0 +1,61 @@
+.header {
+  height: .45rem;
+  border-bottom: 1px solid #f2f2f2; }
+  .header .m_logo {
+    width: .39rem;
+    height: .45rem; }
+  .header .m_search {
+    padding-right: .08rem; }
+  .header .m_email {
+    font-size: .12rem;
+    color: #666;
+    text-align: center;
+    line-height: .4rem; }
+
+.search {
+  width: 100%;
+  height: auto; }
+  .search .hot_search {
+    width: 100%;
+    box-sizing: border-box;
+    height: .35rem;
+    padding: .1rem;
+    display: flex;
+    align-items: center; }
+    .search .hot_search p {
+      font-size: .12rem;
+      color: #999; }
+  .search .search_tj {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: .16rem;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap; }
+  .search a {
+    font-size: .12rem;
+    padding: .07rem .1rem;
+    margin-right: .1rem;
+    margin-bottom: .1rem;
+    color: #666; }
+  .search a:nth-child(1) {
+    background: #f1f9ea; }
+  .search a:nth-child(2) {
+    background: #fff9fa; }
+  .search a:nth-child(3) {
+    background: #fbeefb; }
+  .search a:nth-child(4) {
+    background: #ecf8fa; }
+  .search a:nth-child(5) {
+    background: #fef4fb; }
+  .search a:nth-child(6) {
+    background: #edebfb; }
+  .search a:nth-child(7) {
+    background: #ffe0d9; }
+  .search a:nth-child(8) {
+    background: #fbf5eb; }
+  .search a:nth-child(9) {
+    background: #f4f5ef; }
+  .search a:nth-child(10) {
+    background: #edebfb; }

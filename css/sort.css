@@ -1,0 +1,78 @@
+.header {
+  height: .45rem;
+  box-sizing: border-box;
+  padding: .1rem;
+  border-radius: 3px; }
+  .header .m_search {
+    width: 100%; }
+    .header .m_search .search_ico {
+      width: .17rem;
+      height: .17rem; }
+
+.sort_container {
+  width: 100%;
+  height: auto;
+  flex: 1;
+  background: #fff;
+  display: flex; }
+  .sort_container .aside_menu {
+    width: .74rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow-y: scroll;
+    border-right: 3px solid #e5e5e5; }
+    .sort_container .aside_menu .menu_list li {
+      font-size: .12rem;
+      color: #333;
+      line-height: .24rem;
+      box-sizing: border-box;
+      border-left: 3px solid #fff;
+      margin: .13rem 0;
+      padding: 0 .1rem;
+      transition: color .4s; }
+      .sort_container .aside_menu .menu_list li:nth-child(1){
+        border-left: 3px solid #845f3f;
+      }  
+  .sort_container .aside_menu::-webkit-scrollbar {
+    display: none; }
+  .sort_container .menu_content {
+    flex: 1;
+    box-sizing: border-box;
+    padding: .15rem;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column; }
+    .sort_container .menu_content .menu_nav {
+      width: 2.7rem;
+      height: 1.36rem; }
+      .sort_container .menu_content .menu_nav img {
+        width: 100%;
+        height: 100%; }
+    .sort_container .menu_content .menu_txt {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      .sort_container .menu_content .menu_txt .menu_txt_per {
+        width: .7rem;
+        text-align: center;
+        margin: .13rem 0; }
+        .sort_container .menu_content .menu_txt .menu_txt_per img {
+          width: .7rem;
+          height: .7rem; }
+        .sort_container .menu_content .menu_txt .menu_txt_per span {
+          display: block;
+          color: #666;
+          font-size: .1rem;
+          line-height: .12rem; }
+  .sort_container .menu_content::-webkit-scrollbar {
+    display: none; }
+
+.footer .footer_con:nth-of-type(1) a {
+  background-position: 0  0%; }
+
+.footer .footer_con:nth-of-type(2) a {
+  background-position: 0 33.3333%; }

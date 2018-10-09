@@ -1,0 +1,263 @@
+/* 头部样式 */
+body, div, p, ul, ol, li, dl, dt, dd, table, tr, td, th, form, h1, h2, h3, h4, h5, h6, input, textarea, fieldset, figure {
+    margin: 0;
+    padding: 0; }
+  
+  html {
+    font-size: 26.67vw; }
+  
+  html, body {
+    height: 100%; }
+  
+  ul, ol {
+    list-style: none; }
+  
+  a {
+    display: block;
+    text-decoration: none; }
+  
+    fieldset,img {
+    border: 0;
+    display: block; }
+  
+  input {
+    display: block;
+    outline: none; 
+    border: none;
+}
+  
+  body {
+    display: -webkit-flex;
+    flex-direction: column;
+}
+/* login */
+.login_box{
+    width:100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0 .28rem;
+}
+/* header */
+.m_header{
+    width:100%;
+    height: auto;
+    padding-top:.3rem;
+    padding-bottom: .1rem;
+}
+.m_header .m_logo{
+    width:100%;
+    height: .87rem;
+    display:-webkit-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.m_logo img{
+    width:.48rem;
+    height: .48rem;
+}
+.m_logo h4{
+    font-size:.18rem;
+    color: #000;
+    font-weight: normal;
+}
+/* 中间登录盒子 */
+.content{
+    width:100%;
+    height: auto;
+    padding-bottom:.2rem;
+    flex: 1;
+    overflow-y:scroll;
+}
+.user_pass{
+    width:100%;
+    height: auto;
+}
+.user_box{
+    width:100%;
+    height: auto;
+    padding: .1rem 0;
+    border-bottom:1px solid #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.country_code{
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:.1rem;
+    margin-right: .08rem;
+}
+.country_code p{
+    font-size: .18rem;
+    color: #9b9b9b;
+    line-height: .2rem;
+    font-weight: normal;
+    margin-right:.05rem;
+}
+.country_code .code{
+    display: block;
+    width: .07rem;
+    height: .07rem;
+    border-width: .01rem;
+    border-style: solid;
+    border-color: transparent transparent #9b9b9b #9b9b9b;
+    transform: rotate(-135deg);
+}
+.phone_num{
+    flex: 1;
+}
+.phone_num input{
+    outline: none;
+    border: none;
+    width:100%;
+    line-height: normal;
+    font-size: .18rem;
+    color:#4a4a4a;
+    padding: .1rem 0;
+}
+.pass_box{
+    flex-direction: row-reverse;
+}
+.pass_box .country_code a{
+    font-size: .14rem;
+    color:#2ea5e5;
+}
+/* 提示信息 */
+.tsinfo{
+    width:100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: .1rem 0;
+    display: none;
+}
+.icon_error{
+    display: block;
+    width:.14rem;
+    height:.14rem;
+    background-color:#ff6700; 
+    text-align: center;
+    color: #fff;
+    font-size: 6px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.tsinfo span{
+    flex: 1;
+    color:#F66 ;
+    font-size: .14rem;
+    line-height: .2rem;
+}
+.btns_box{
+    width:100%;
+    height: auto;
+    margin-top:.24rem;
+}
+.btns_box input{
+    font-size:.18rem;
+    color: #fff;
+    border-radius: .06rem;
+    padding: .1rem 0;
+    width: 100%;
+}
+.btns_box1 input{
+    background-color: #ff6700;
+}
+.btns_box2 input{
+    background-color: #fff;
+    color: #000;
+    box-sizing: border-box;
+    border: 2px solid #f2f2f2;
+}
+/* 其他方式登录 */
+.oth_select{
+    width:100%;
+    height: auto;
+    padding: .2rem 0;
+    margin: .2rem 0;
+}
+.oth_type{
+    width:100%;
+    box-sizing: border-box;
+    border-top:1px solid #f2f2f2;
+    padding-top:.1rem; 
+    text-align: center;
+}
+.oth_type .oth_type_txt{
+    font-size: .12rem;
+    color: #b0b0b0;
+    width:.8rem;
+}
+.oth_type_icons{
+    width:100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .1rem 0;
+}
+.oth_type_icons a{
+    width:.3rem;
+    height: .3rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: .3rem;
+    margin: 0 .1rem;
+}
+.oth_type_icons a:nth-of-type(1){
+    background: #72c7db;
+}
+.oth_type_icons .type_icon2{
+    background: #ed9090;
+}
+.oth_type_icons .type_icon3{
+    background: #6bb6ea;
+}
+.oth_type_icons i{
+    display: block;
+    width:.18rem;
+    height: .18rem;
+    background: url(../img/icons_type.png) no-repeat;
+    background-size: cover;
+    margin: 5px auto 0;
+}
+.oth_type_icons .type_icon1 i{
+    background-position: -.19rem 0;
+}
+.oth_type_icons .type_icon2 i{
+    background-position: -.38rem 0;
+}
+.oth_type_icons .type_icon3 i{
+    width:.26rem;
+    background-position: -.57rem 0;
+}
+/* footer */
+.footer{
+    width:100%;
+    height: .9rem;
+}
+.footer ul{
+    display: flex;
+}
+.footer ul li{
+    box-sizing: border-box;
+    border-right: 2px solid #c6c6c6;
+    padding: 0 .09rem;
+}
+.footer ul li a{
+    color:#9b9b9b;
+    font-size: .14rem;
+    line-height: .15rem;
+}
+    
+.footer ul li:nth-last-child(1){
+    border-right: 0;
+}
+
+
+
+

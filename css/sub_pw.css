@@ -1,0 +1,143 @@
+.header {
+  height: .44rem;
+  border-bottom: 2px solid #bfbfc0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .header h1 {
+    font-size: .16rem;
+    font-weight: 100;
+    color: #333; }
+
+.content {
+  width: 100%;
+  height: auto;
+  flex: 1;
+  overflow-y: scroll; }
+  .content::-webkit-scrollbar{
+    display: none;
+  }
+  .content .banner_nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    justify-content: space-between; }
+    .content .banner_nav .banner {
+      width: 100%;
+      height: 1.9rem;
+      box-sizing: border-box;
+      padding: .15rem; }
+      .content .banner_nav .banner .swiper-container {
+        width: 100%;
+        height: 100%; }
+        .content .banner_nav .banner .swiper-container .swiper-slide {
+          width: 100%;
+          height: 100%; }
+          .content .banner_nav .banner .swiper-container .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            border-radius: 6px; }
+    .content .banner_nav .nav {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-shrink: 0;
+      overflow-x: scroll;
+      margin-bottom: .1rem; }
+      .content .banner_nav .nav a {
+        width: .7rem;
+        height: auto;
+        margin-left: .1rem; }
+        .content .banner_nav .nav a img {
+          width: .7rem;
+          height: .6rem;
+          border-radius: 3px; }
+        .content .banner_nav .nav a span {
+          display: block;
+          line-height: .16rem;
+          font-size: .1rem;
+          margin-top: .1rem;
+          color: #333; }
+    .content .banner_nav .nav::-webkit-scrollbar {
+      display: none; }
+  .content .groups {
+    width: 100%;
+    height: auto;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+    box-sizing: border-box;
+    padding: .15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff; }
+    .content .groups p {
+      font-size: .14rem;
+      color: #333;
+      padding-bottom: .14rem; }
+    .content .groups .g_one_img {
+      width: 100%;
+      height: .95rem; }
+      .content .groups .g_one_img img {
+        width: 100%;
+        height: 100%; }
+    .content .groups .g_one_nav {
+      width: 100%;
+      height: auto;
+      color: #333;
+      display: flex;
+      flex-shrink: 0;
+      overflow-x: scroll; }
+      .content .groups .g_one_nav a {
+        width: 1rem;
+        height: auto;
+        padding-bottom: .2rem; }
+        .content .groups .g_one_nav a img {
+          width: 1rem;
+          height: 1rem;
+          background: #fafafa; }
+        .content .groups .g_one_nav a span {
+          display: block; }
+        .content .groups .g_one_nav a .spans:nth-of-type(1) {
+          font-size: .12rem;
+          color: #333;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          margin: .1rem 0; }
+        .content .groups .g_one_nav a .spans:nth-of-type(2) {
+          font-size: .14rem;
+          color: #b60909; }
+    .content .groups .g_one_nav::-webkit-scrollbar {
+      display: none; }
+  .content .group_two {
+    width: 100%;
+    margin: 0; }
+    .content .group_two .g_one_img {
+      height: 1.7rem; }
+    .content .group_two .g_two_nav {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: .2rem;
+      margin-bottom: .1rem; }
+      .content .group_two .g_two_nav h3 {
+        font-size: .16rem;
+        font-weight: 100;
+        color: #333333; }
+      .content .group_two .g_two_nav span {
+        display: block;
+        font-size: .12rem; }
+      .content .group_two .g_two_nav span:nth-of-type(1) {
+        color: #999999;
+        margin-top: .08rem; }
+      .content .group_two .g_two_nav span:nth-of-type(2) {
+        color: white;
+        padding: .05rem .08rem;
+        background: #845f3f;
+        margin: .1rem;
+        font-size: .14rem;
+        border-radius: 3px; }
